@@ -440,22 +440,6 @@ const skillsData = (await getCollection("skills"))[0].data;
 						</svg>
 						<span>{edu.data.date}</span>
 					  </div>
-					  <div class="flex items-center text-sm text-gray-600 dark:text-gray-400">
-						<svg class="w-4 h-4 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-						  <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
-						</svg>
-						<span>{edu.data.location}</span>
-					  </div>
-					  
-					  {edu.data.gpa && (
-						<div class="pt-2 mt-2 border-t border-gray-100 dark:border-gray-700">
-						  <div class="flex items-center text-sm">
-							<span class="px-2 py-1 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 rounded-md">
-							  GPA: {edu.data.gpa}
-							</span>
-						  </div>
-						</div>
-					  )}
 					</div>
 				  </div>
 				</div>
