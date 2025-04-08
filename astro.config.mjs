@@ -9,6 +9,8 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()]
   },
+  site: 'https://bunnybunbun37204.github.io',
+  base: 'my-portfolio',
   output: 'static',
   integrations: [mdx()],
 });
